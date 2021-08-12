@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_detail">
+    <sys_app_template_detail action="INSERT_OR_UPDATE">
+        <additional_uses/>
+        <author>ServiceNow</author>
+        <data_image/>
+        <detailed_description/>
+        <function_type_list/>
+        <header_background_color/>
+        <header_image/>
+        <hero_image_1/>
+        <hero_image_2/>
+        <hero_image_3/>
+        <how_was_built/>
+        <icon/>
+        <metadata_list/>
+        <schema_image/>
+        <short_description/>
+        <sys_class_name>sys_app_template_detail</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-09 12:13:19</sys_created_on>
+        <sys_id>774d37a277b13010d09b72e9be5a997f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name>sys_app_template_detail_774d37a277b13010d09b72e9be5a997f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-09 12:13:19</sys_updated_on>
+        <template display_value="Request Time off from service catalog">762db3a277b13010d09b72e9be5a99d7</template>
+    </sys_app_template_detail>
+    <sys_translated_text action="delete_multiple" query="documentkey=774d37a277b13010d09b72e9be5a997f"/>
+</record_update>

@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>be603e5953003010f9a7ddeeff7b126a</copied_from>
+        <copied_from_name>Update Flow Action: Launch a UiP</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>update_flow_action_request_time_off_from_service_catalog</internal_name>
+        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.flow_scope_sys_id}}","label":"action➛flow_scope_sys_id","type":"action","ref":""},{"name":"{{action.new_flow_sys_id}}","label":"action➛new_flow_sys_id","type":"action","ref":""},{"name":"{{action.jobs_count}}","label":"action➛Jobs Count","type":"action","ref":""},{"name":"{{action.execution_target}}","label":"action➛Execution Target","type":"action","ref":""},{"name":"{{action.uipath_connection}}","label":"action➛UiPath COnnection","type":"action","ref":""},{"name":"{{action.uipath_connection5}}","label":"action➛spoke_connection","type":"action","ref":""},{"name":"{{action.catalog_item}}","label":"action➛catalog_item","type":"action","ref":""},{"name":"{{action.spoke_connection}}","label":"action➛spoke_connection","type":"action","ref":""},{"name":"{{action.agreement_name}}","label":"action➛Agreement Name","type":"action","ref":""},{"name":"{{action.group_record}}","label":"action➛Group Record","type":"action","ref":"sn_adobesign_spoke_adobesign_group_details"},{"name":"{{action.result_behavior}}","label":"action➛Result Behavior","type":"action","ref":""},{"name":"{{action.docusign_account}}","label":"action➛docusign_account","type":"action","ref":""},{"name":"{{action.docusign_template}}","label":"action➛docusign_template","type":"action","ref":""},{"name":"{{action.returned_document_name}}","label":"action➛returned_document_name","type":"action","ref":""},{"name":"{{action.outbound_document_name}}","label":"action➛outbound_document_name","type":"action","ref":""},{"name":"{{action.recipient_role_name}}","label":"action➛recipient_role_name","type":"action","ref":""},{"name":"{{action.docusign_connection}}","label":"action➛docusign_connection","type":"action","ref":""},{"name":"{{action.valid_days}}","label":"action➛valid_days","type":"action","ref":""},{"name":"{{action.site_location}}","label":"action➛site_location","type":"action","ref":""},{"name":"{{action.folder_location}}","label":"action➛folder_location","type":"action","ref":""},{"name":"{{action.folder_name}}","label":"action➛folder_name","type":"action","ref":""},{"name":"{{action.doc_lib_name}}","label":"action➛doc_lib_name","type":"action","ref":""},{"name":"{{action.document_library_name}}","label":"action➛document_library_name","type":"action","ref":""},{"name":"{{action.sp_connection}}","label":"action➛sp_connection","type":"action","ref":""},{"name":"{{action.document}}","label":"action➛Document","type":"action","ref":""},{"name":"{{action.recipient_name}}","label":"action➛Recipient Name","type":"action","ref":""},{"name":"{{action.recipient_email}}","label":"action➛Recipient Email","type":"action","ref":""},{"name":"{{action.email_subject}}","label":"action➛Email Subject","type":"action","ref":""},{"name":"{{action.email_body}}","label":"action➛Email Body","type":"action","ref":""},{"name":"{{action.account}}","label":"action➛Account","type":"action","ref":"sn_docusign_spoke_accounts"},{"name":"{{action.account.id}}","label":"action➛Account➛ID","type":"action","ref":""},{"name":"{{action.account.alias}}","label":"action➛Account➛Alias","type":"action","ref":"sys_alias"},{"name":"{{action.envelope_expire_days}}","label":"action➛Envelope Expire Days","type":"action","ref":""},{"name":"{{action.account.sys_id}}","label":"action➛Account➛Sys ID","type":"action","ref":""},{"name":"{{action.use_embedded_signing}}","label":"action➛Use Embedded Signing","type":"action","ref":""},{"name":"{{action.embedded_signing_recipient}}","label":"action➛Embedded Signing Recipient","type":"action","ref":"sys_user"},{"name":"{{action.embedded_signing_recipient.name}}","label":"action➛Embedded Signing Recipient➛Name","type":"action","ref":""},{"name":"{{action.embedded_signing_recipient.email}}","label":"action➛Embedded Signing Recipient➛Email","type":"action","ref":""},{"name":"{{action.embedded_signing_recipient.user_name}}","label":"action➛Embedded Signing Recipient➛User ID","type":"action","ref":""},{"name":"{{action.document.file_name}}","label":"action➛Document➛File name","type":"action","ref":""},{"name":"{{action.document_name}}","label":"action➛Document Name","type":"action","ref":""},{"name":"{{action.process}}","label":"action➛Process","type":"action","ref":""},{"name":"{{action.robot_ids}}","label":"action➛Robot IDs","type":"action","ref":""},{"name":"{{action.robot_ids.Robot_ID}}","label":"action➛Robot IDs➛Robot ID","type":"action","ref":""},{"name":"{{action.input_arguments}}","label":"action➛Input Arguments","type":"action","ref":""},{"name":"{{action.robots}}","label":"action➛Robots","type":"action","ref":""},{"name":"{{action.folder_or_organization_unit}}","label":"action➛Folder or Organization Unit","type":"action","ref":""},{"name":"{{action.bot_name}}","label":"action➛bot_name","type":"action","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].agreement_name}}","label":"step➛Pre Processing➛agreement_name","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].g}}","label":"step➛Pre Processing➛g","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].gr}}","label":"step➛Pre Processing➛gr","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].gro}}","label":"step➛Pre Processing➛gro","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].grou}}","label":"step➛Pre Processing➛grou","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group}}","label":"step➛Pre Processing➛group","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_}}","label":"step➛Pre Processing➛group_","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_r}}","label":"step➛Pre Processing➛group_r","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_re}}","label":"step➛Pre Processing➛group_re","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_rec}}","label":"step➛Pre Processing➛group_rec","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_reco}}","label":"step➛Pre Processing➛group_reco","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_recor}}","label":"step➛Pre Processing➛group_recor","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_record}}","label":"step➛Pre Processing➛group_record","type":"step","ref":"sn_adobesign_spoke_adobesign_group_details"},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].}}","label":"step➛Look Up Agreement ID➛","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].s}}","label":"step➛Look Up Agreement ID➛s","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].st}}","label":"step➛Look Up Agreement ID➛st","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].sta}}","label":"step➛Look Up Agreement ID➛sta","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].stat}}","label":"step➛Look Up Agreement ID➛stat","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].statu}}","label":"step➛Look Up Agreement ID➛statu","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].status}}","label":"step➛Look Up Agreement ID➛status","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].a}}","label":"step➛Look Up Agreement ID➛a","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].ag}}","label":"step➛Look Up Agreement ID➛ag","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agr}}","label":"step➛Look Up Agreement ID➛agr","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agre}}","label":"step➛Look Up Agreement ID➛agre","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agree}}","label":"step➛Look Up Agreement ID➛agree","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreem}}","label":"step➛Look Up Agreement ID➛agreem","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreeme}}","label":"step➛Look Up Agreement ID➛agreeme","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreemen}}","label":"step➛Look Up Agreement ID➛agreemen","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement}}","label":"step➛Look Up Agreement ID➛agreement","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement_}}","label":"step➛Look Up Agreement ID➛agreement_","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement_i}}","label":"step➛Look Up Agreement ID➛agreement_i","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement_id}}","label":"step➛Look Up Agreement ID➛agreement_id","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].c}}","label":"step➛Look Up Agreement ID➛c","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].co}}","label":"step➛Look Up Agreement ID➛co","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].cou}}","label":"step➛Look Up Agreement ID➛cou","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].coun}}","label":"step➛Look Up Agreement ID➛coun","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].count}}","label":"step➛Look Up Agreement ID➛count","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].error_message}}","label":"step➛Look Up Agreement ID➛error_message","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_record.sys_id}}","label":"step➛Pre Processing➛group_record➛Sys ID","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].enc_data}}","label":"step➛Pre Processing➛enc_data","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].email_subject}}","label":"step➛Pre Processing➛email_subject","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].document_name}}","label":"step➛Pre Processing➛document_name","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].recipients}}","label":"step➛Pre Processing➛recipients","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].email_body}}","label":"step➛Pre Processing➛email_body","type":"step","ref":""},{"name":"{{step[29e513db-4440-4e10-9155-a51918abf635].error_message}}","label":"step➛Send Adhoc Signature Request to User➛Error Message","type":"step","ref":""},{"name":"{{step[29e513db-4440-4e10-9155-a51918abf635].status_code}}","label":"step➛Send Adhoc Signature Request to User➛Status Code","type":"step","ref":""},{"name":"{{step[29e513db-4440-4e10-9155-a51918abf635].response_body}}","label":"step➛Send Adhoc Signature Request to User➛Response Body","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].status}}","label":"step➛Handle Errors➛status","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].error_message}}","label":"step➛Handle Errors➛error_message","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].envelope_id}}","label":"step➛Handle Errors➛envelope_id","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].envelope_uri}}","label":"step➛Handle Errors➛envelope_uri","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].envelope_expire_days}}","label":"step➛Pre Processing➛envelope_expire_days_payload","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].e}}","label":"step➛Look Up Envelope Record➛e","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].en}}","label":"step➛Look Up Envelope Record➛en","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].env}}","label":"step➛Look Up Envelope Record➛env","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].enve}}","label":"step➛Look Up Envelope Record➛enve","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envel}}","label":"step➛Look Up Envelope Record➛envel","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelo}}","label":"step➛Look Up Envelope Record➛envelo","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelop}}","label":"step➛Look Up Envelope Record➛envelop","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelope}}","label":"step➛Look Up Envelope Record➛envelope","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelope_}}","label":"step➛Look Up Envelope Record➛envelope_","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelope_record}}","label":"step➛Look Up Envelope Record➛envelope_record","type":"step","ref":"sn_docusign_spoke_envelopes"},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].pre_status}}","label":"step➛Pre Processing➛pre_status","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].recipient_name}}","label":"step➛Pre Processing➛recipient_name","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].recipient_email}}","label":"step➛Pre Processing➛recipient_email","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].recipient_email}}","label":"step➛Handle Errors➛recipient_email","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].recipient_name}}","label":"step➛Handle Errors➛recipient_name","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].api_version}}","label":"step➛Pre Processing➛API Version","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].document_type}}","label":"step➛Pre Processing➛document_type","type":"step","ref":""},{"name":"{{step[2f7f7271-f0a1-40fe-8ca6-4087df65d97b].variable}}","label":"step➛Pre Processing Script➛variable","type":"step","ref":""},{"name":"{{step[2f7f7271-f0a1-40fe-8ca6-4087df65d97b].request_body}}","label":"step➛Pre Processing Script➛Request Body","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].account_logical_name}}","label":"step➛Start Jobs➛Account Logical Name","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].instance_logical_name}}","label":"step➛Start Jobs➛Instance Logical Name","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].status_code}}","label":"step➛Start Jobs➛Status Code","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].response_body}}","label":"step➛Start Jobs➛Response Body","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].variable}}","label":"step➛Post Processing Step➛variable","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs}}","label":"step➛Post Processing Step➛Created Jobs","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job}}","label":"step➛Post Processing Step➛Created Jobs➛Created Job","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].status}}","label":"step➛Post Processing Step➛Status","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].error_message}}","label":"step➛Post Processing Step➛Error Message","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].error_message}}","label":"step➛Start Jobs➛Error Message","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.Id}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.ReleaseVersionId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Release Version ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.PersistenceId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Persistence ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.StartingScheduleId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Starting Schedule ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.created_job_child22}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Created Job_child22","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.Folder_or_Organization_Unit_ID}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.OrganizationUnitId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.created_job_child23}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Created Job_child23","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.Folder_or_Organization_Unit_Fully_Qualified_Name}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit Fully Qualified Name","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.OrganizationUnitFullyQualifiedName}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit Fully Qualified Name","type":"step","ref":""}]</label_cache>
+        <master_snapshot>9c95859f77713010d09b72e9be5a998f</master_snapshot>
+        <name>Update Flow Action: Request Time off from service catalog</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e45419f77713010d09b72e9be5a99d6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Update Flow Action: Request Time off from service catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2e45419f77713010d09b72e9be5a99d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:20</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e45419f77713010d09b72e9be5a99d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2e45419f77713010d09b72e9be5a99d6"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=2e45419f77713010d09b72e9be5a99d6^sys_idNOT IN2645819f77713010d09b72e9be5a990a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</action>
+        <cid>33b251c1-bb76-4875-b56f-a790ccb0b664</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Update flow action</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>2645819f77713010d09b72e9be5a990a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2645819f77713010d09b72e9be5a990a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2645819f77713010d09b72e9be5a990a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>3645819f77713010d09b72e9be5a9939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2645819f77713010d09b72e9be5a990a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>fa45819f77713010d09b72e9be5a9939</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+   var inputScope = inputs.flow_scope_sys_id;
+  var newFlow = inputs.new_flow_sys_id;
+  var spoke_connection = inputs.spoke_connection;
+  var catalog_item = inputs.catalog_item;
+  if(catalog_item != null &amp;&amp; catalog_item != ""){
+  sn_flow.FlowTemplates.updateFlowActions(newFlow,'1', 'template_catalog_item', catalog_item);
+  }
+  if(spoke_connection != null &amp;&amp; spoke_connection != ""){
+  new global.FlowTemplatesHelper().activateConnection(spoke_connection);
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2645819f77713010d09b72e9be5a990a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>fa45819f77713010d09b72e9be5a9938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_item</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>3245819f77713010d09b72e9be5a993b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</table>
+        <value>{{action.catalog_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>execution_target</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>7e45819f77713010d09b72e9be5a993a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</table>
+        <value>{{action.execution_target}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>flow_scope_sys_id</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>f645819f77713010d09b72e9be5a993a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</table>
+        <value>{{action.flow_scope_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>jobs_count</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>b645819f77713010d09b72e9be5a993b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</table>
+        <value>{{action.jobs_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_flow_sys_id</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>ba45819f77713010d09b72e9be5a993a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</table>
+        <value>{{action.new_flow_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>b245819f77713010d09b72e9be5a9939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>spoke_connection</field>
+        <id>2645819f77713010d09b72e9be5a990a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>f245819f77713010d09b72e9be5a993b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</table>
+        <value>{{action.spoke_connection}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2645819f77713010d09b72e9be5a990a^sys_idNOT INaa45819f77713010d09b72e9be5a990d,fa45819f77713010d09b72e9be5a9927,fe45819f77713010d09b72e9be5a9914,fe45819f77713010d09b72e9be5a992d"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flow_scope_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">2645819f77713010d09b72e9be5a990a</model>
+        <model_id>2645819f77713010d09b72e9be5a990a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>aa45819f77713010d09b72e9be5a990d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>spoke_connection</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">2645819f77713010d09b72e9be5a990a</model>
+        <model_id>2645819f77713010d09b72e9be5a990a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>fa45819f77713010d09b72e9be5a9927</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_flow_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">2645819f77713010d09b72e9be5a990a</model>
+        <model_id>2645819f77713010d09b72e9be5a990a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>fe45819f77713010d09b72e9be5a9914</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catalog_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">2645819f77713010d09b72e9be5a990a</model>
+        <model_id>2645819f77713010d09b72e9be5a990a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2645819f77713010d09b72e9be5a990a</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>fe45819f77713010d09b72e9be5a992d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_action_input action="delete_multiple" query="model=2e45419f77713010d09b72e9be5a99d6^sys_idNOT IN2245419f77713010d09b72e9be5a99e5,2645819f77713010d09b72e9be5a9901,ae45419f77713010d09b72e9be5a99dc,e245419f77713010d09b72e9be5a99fa"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8a8ffc58-1294-48d6-a76d-3715b5c77a2b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_flow_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>new_flow_sys_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</model>
+        <model_id>2e45419f77713010d09b72e9be5a99d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>2245419f77713010d09b72e9be5a99e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3de24a63-4099-4ea7-bc59-506574d7ddad</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>spoke_connection</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>spoke_connection</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</model>
+        <model_id>2e45419f77713010d09b72e9be5a99d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>2645819f77713010d09b72e9be5a9901</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=139e953d-3cc3-432c-a024-cccaf42a042c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flow_scope_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>flow_scope_sys_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</model>
+        <model_id>2e45419f77713010d09b72e9be5a99d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>ae45419f77713010d09b72e9be5a99dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=24f87a2d-542b-4437-b230-f7cd5fb603ca</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catalog_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>catalog_item</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</model>
+        <model_id>2e45419f77713010d09b72e9be5a99d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>e245419f77713010d09b72e9be5a99fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6^sys_idNOT IN6a45419f77713010d09b72e9be5a99e3,6e45419f77713010d09b72e9be5a99ff,aa45419f77713010d09b72e9be5a99ea,ae45819f77713010d09b72e9be5a9906"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>flow_scope_sys_id</element>
+        <help/>
+        <hint/>
+        <label>flow_scope_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>6a45419f77713010d09b72e9be5a99e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>catalog_item</element>
+        <help/>
+        <hint/>
+        <label>catalog_item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>6e45419f77713010d09b72e9be5a99ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_flow_sys_id</element>
+        <help/>
+        <hint/>
+        <label>new_flow_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>aa45419f77713010d09b72e9be5a99ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>spoke_connection</element>
+        <help/>
+        <hint/>
+        <label>spoke_connection</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2e45419f77713010d09b72e9be5a99d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:44:47</sys_created_on>
+        <sys_id>ae45819f77713010d09b72e9be5a9906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=2e45419f77713010d09b72e9be5a99d6^sys_idNOT IN9095c59f77713010d09b72e9be5a9924"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9095c59f77713010d09b72e9be5a9924","name":"plan"}}</plan>
+        <snapshot>2da5499f77713010d09b72e9be5a9913</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:46:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9095c59f77713010d09b72e9be5a9924</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:21</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_flow_action_request_time_off_from_service_catalog</internal_name>
+        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.flow_scope_sys_id}}","label":"action➛flow_scope_sys_id","type":"action","ref":""},{"name":"{{action.new_flow_sys_id}}","label":"action➛new_flow_sys_id","type":"action","ref":""},{"name":"{{action.jobs_count}}","label":"action➛Jobs Count","type":"action","ref":""},{"name":"{{action.execution_target}}","label":"action➛Execution Target","type":"action","ref":""},{"name":"{{action.uipath_connection}}","label":"action➛UiPath COnnection","type":"action","ref":""},{"name":"{{action.uipath_connection5}}","label":"action➛spoke_connection","type":"action","ref":""},{"name":"{{action.catalog_item}}","label":"action➛catalog_item","type":"action","ref":""},{"name":"{{action.spoke_connection}}","label":"action➛spoke_connection","type":"action","ref":""},{"name":"{{action.agreement_name}}","label":"action➛Agreement Name","type":"action","ref":""},{"name":"{{action.group_record}}","label":"action➛Group Record","type":"action","ref":"sn_adobesign_spoke_adobesign_group_details"},{"name":"{{action.result_behavior}}","label":"action➛Result Behavior","type":"action","ref":""},{"name":"{{action.docusign_account}}","label":"action➛docusign_account","type":"action","ref":""},{"name":"{{action.docusign_template}}","label":"action➛docusign_template","type":"action","ref":""},{"name":"{{action.returned_document_name}}","label":"action➛returned_document_name","type":"action","ref":""},{"name":"{{action.outbound_document_name}}","label":"action➛outbound_document_name","type":"action","ref":""},{"name":"{{action.recipient_role_name}}","label":"action➛recipient_role_name","type":"action","ref":""},{"name":"{{action.docusign_connection}}","label":"action➛docusign_connection","type":"action","ref":""},{"name":"{{action.valid_days}}","label":"action➛valid_days","type":"action","ref":""},{"name":"{{action.site_location}}","label":"action➛site_location","type":"action","ref":""},{"name":"{{action.folder_location}}","label":"action➛folder_location","type":"action","ref":""},{"name":"{{action.folder_name}}","label":"action➛folder_name","type":"action","ref":""},{"name":"{{action.doc_lib_name}}","label":"action➛doc_lib_name","type":"action","ref":""},{"name":"{{action.document_library_name}}","label":"action➛document_library_name","type":"action","ref":""},{"name":"{{action.sp_connection}}","label":"action➛sp_connection","type":"action","ref":""},{"name":"{{action.document}}","label":"action➛Document","type":"action","ref":""},{"name":"{{action.recipient_name}}","label":"action➛Recipient Name","type":"action","ref":""},{"name":"{{action.recipient_email}}","label":"action➛Recipient Email","type":"action","ref":""},{"name":"{{action.email_subject}}","label":"action➛Email Subject","type":"action","ref":""},{"name":"{{action.email_body}}","label":"action➛Email Body","type":"action","ref":""},{"name":"{{action.account}}","label":"action➛Account","type":"action","ref":"sn_docusign_spoke_accounts"},{"name":"{{action.account.id}}","label":"action➛Account➛ID","type":"action","ref":""},{"name":"{{action.account.alias}}","label":"action➛Account➛Alias","type":"action","ref":"sys_alias"},{"name":"{{action.envelope_expire_days}}","label":"action➛Envelope Expire Days","type":"action","ref":""},{"name":"{{action.account.sys_id}}","label":"action➛Account➛Sys ID","type":"action","ref":""},{"name":"{{action.use_embedded_signing}}","label":"action➛Use Embedded Signing","type":"action","ref":""},{"name":"{{action.embedded_signing_recipient}}","label":"action➛Embedded Signing Recipient","type":"action","ref":"sys_user"},{"name":"{{action.embedded_signing_recipient.name}}","label":"action➛Embedded Signing Recipient➛Name","type":"action","ref":""},{"name":"{{action.embedded_signing_recipient.email}}","label":"action➛Embedded Signing Recipient➛Email","type":"action","ref":""},{"name":"{{action.embedded_signing_recipient.user_name}}","label":"action➛Embedded Signing Recipient➛User ID","type":"action","ref":""},{"name":"{{action.document.file_name}}","label":"action➛Document➛File name","type":"action","ref":""},{"name":"{{action.document_name}}","label":"action➛Document Name","type":"action","ref":""},{"name":"{{action.process}}","label":"action➛Process","type":"action","ref":""},{"name":"{{action.robot_ids}}","label":"action➛Robot IDs","type":"action","ref":""},{"name":"{{action.robot_ids.Robot_ID}}","label":"action➛Robot IDs➛Robot ID","type":"action","ref":""},{"name":"{{action.input_arguments}}","label":"action➛Input Arguments","type":"action","ref":""},{"name":"{{action.robots}}","label":"action➛Robots","type":"action","ref":""},{"name":"{{action.folder_or_organization_unit}}","label":"action➛Folder or Organization Unit","type":"action","ref":""},{"name":"{{action.bot_name}}","label":"action➛bot_name","type":"action","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].agreement_name}}","label":"step➛Pre Processing➛agreement_name","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].g}}","label":"step➛Pre Processing➛g","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].gr}}","label":"step➛Pre Processing➛gr","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].gro}}","label":"step➛Pre Processing➛gro","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].grou}}","label":"step➛Pre Processing➛grou","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group}}","label":"step➛Pre Processing➛group","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_}}","label":"step➛Pre Processing➛group_","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_r}}","label":"step➛Pre Processing➛group_r","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_re}}","label":"step➛Pre Processing➛group_re","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_rec}}","label":"step➛Pre Processing➛group_rec","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_reco}}","label":"step➛Pre Processing➛group_reco","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_recor}}","label":"step➛Pre Processing➛group_recor","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_record}}","label":"step➛Pre Processing➛group_record","type":"step","ref":"sn_adobesign_spoke_adobesign_group_details"},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].}}","label":"step➛Look Up Agreement ID➛","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].s}}","label":"step➛Look Up Agreement ID➛s","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].st}}","label":"step➛Look Up Agreement ID➛st","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].sta}}","label":"step➛Look Up Agreement ID➛sta","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].stat}}","label":"step➛Look Up Agreement ID➛stat","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].statu}}","label":"step➛Look Up Agreement ID➛statu","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].status}}","label":"step➛Look Up Agreement ID➛status","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].a}}","label":"step➛Look Up Agreement ID➛a","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].ag}}","label":"step➛Look Up Agreement ID➛ag","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agr}}","label":"step➛Look Up Agreement ID➛agr","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agre}}","label":"step➛Look Up Agreement ID➛agre","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agree}}","label":"step➛Look Up Agreement ID➛agree","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreem}}","label":"step➛Look Up Agreement ID➛agreem","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreeme}}","label":"step➛Look Up Agreement ID➛agreeme","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreemen}}","label":"step➛Look Up Agreement ID➛agreemen","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement}}","label":"step➛Look Up Agreement ID➛agreement","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement_}}","label":"step➛Look Up Agreement ID➛agreement_","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement_i}}","label":"step➛Look Up Agreement ID➛agreement_i","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].agreement_id}}","label":"step➛Look Up Agreement ID➛agreement_id","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].c}}","label":"step➛Look Up Agreement ID➛c","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].co}}","label":"step➛Look Up Agreement ID➛co","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].cou}}","label":"step➛Look Up Agreement ID➛cou","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].coun}}","label":"step➛Look Up Agreement ID➛coun","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].count}}","label":"step➛Look Up Agreement ID➛count","type":"step","ref":""},{"name":"{{step[c23bf5ea-f470-4a17-abf1-dded0c5126e0].error_message}}","label":"step➛Look Up Agreement ID➛error_message","type":"step","ref":""},{"name":"{{step[adf0d500-06da-4d70-bf41-f5121b01f5d0].group_record.sys_id}}","label":"step➛Pre Processing➛group_record➛Sys ID","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].enc_data}}","label":"step➛Pre Processing➛enc_data","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].email_subject}}","label":"step➛Pre Processing➛email_subject","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].document_name}}","label":"step➛Pre Processing➛document_name","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].recipients}}","label":"step➛Pre Processing➛recipients","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].email_body}}","label":"step➛Pre Processing➛email_body","type":"step","ref":""},{"name":"{{step[29e513db-4440-4e10-9155-a51918abf635].error_message}}","label":"step➛Send Adhoc Signature Request to User➛Error Message","type":"step","ref":""},{"name":"{{step[29e513db-4440-4e10-9155-a51918abf635].status_code}}","label":"step➛Send Adhoc Signature Request to User➛Status Code","type":"step","ref":""},{"name":"{{step[29e513db-4440-4e10-9155-a51918abf635].response_body}}","label":"step➛Send Adhoc Signature Request to User➛Response Body","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].status}}","label":"step➛Handle Errors➛status","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].error_message}}","label":"step➛Handle Errors➛error_message","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].envelope_id}}","label":"step➛Handle Errors➛envelope_id","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].envelope_uri}}","label":"step➛Handle Errors➛envelope_uri","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].envelope_expire_days}}","label":"step➛Pre Processing➛envelope_expire_days_payload","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].e}}","label":"step➛Look Up Envelope Record➛e","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].en}}","label":"step➛Look Up Envelope Record➛en","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].env}}","label":"step➛Look Up Envelope Record➛env","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].enve}}","label":"step➛Look Up Envelope Record➛enve","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envel}}","label":"step➛Look Up Envelope Record➛envel","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelo}}","label":"step➛Look Up Envelope Record➛envelo","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelop}}","label":"step➛Look Up Envelope Record➛envelop","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelope}}","label":"step➛Look Up Envelope Record➛envelope","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelope_}}","label":"step➛Look Up Envelope Record➛envelope_","type":"step","ref":""},{"name":"{{step[3f906b20-abdc-4dd3-8806-32be1bb59828].envelope_record}}","label":"step➛Look Up Envelope Record➛envelope_record","type":"step","ref":"sn_docusign_spoke_envelopes"},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].pre_status}}","label":"step➛Pre Processing➛pre_status","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].recipient_name}}","label":"step➛Pre Processing➛recipient_name","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].recipient_email}}","label":"step➛Pre Processing➛recipient_email","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].recipient_email}}","label":"step➛Handle Errors➛recipient_email","type":"step","ref":""},{"name":"{{step[70c5b265-a4c9-4307-83ea-731eccd4be5f].recipient_name}}","label":"step➛Handle Errors➛recipient_name","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].api_version}}","label":"step➛Pre Processing➛API Version","type":"step","ref":""},{"name":"{{step[8f32cbc7-6023-4e9d-bc6c-a32829c80454].document_type}}","label":"step➛Pre Processing➛document_type","type":"step","ref":""},{"name":"{{step[2f7f7271-f0a1-40fe-8ca6-4087df65d97b].variable}}","label":"step➛Pre Processing Script➛variable","type":"step","ref":""},{"name":"{{step[2f7f7271-f0a1-40fe-8ca6-4087df65d97b].request_body}}","label":"step➛Pre Processing Script➛Request Body","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].account_logical_name}}","label":"step➛Start Jobs➛Account Logical Name","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].instance_logical_name}}","label":"step➛Start Jobs➛Instance Logical Name","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].status_code}}","label":"step➛Start Jobs➛Status Code","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].response_body}}","label":"step➛Start Jobs➛Response Body","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].variable}}","label":"step➛Post Processing Step➛variable","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs}}","label":"step➛Post Processing Step➛Created Jobs","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job}}","label":"step➛Post Processing Step➛Created Jobs➛Created Job","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].status}}","label":"step➛Post Processing Step➛Status","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].error_message}}","label":"step➛Post Processing Step➛Error Message","type":"step","ref":""},{"name":"{{step[3d86b229-f7a7-4a51-8020-ba5a0e26dd59].error_message}}","label":"step➛Start Jobs➛Error Message","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.Id}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.ReleaseVersionId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Release Version ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.PersistenceId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Persistence ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.StartingScheduleId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Starting Schedule ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.created_job_child22}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Created Job_child22","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.Folder_or_Organization_Unit_ID}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.OrganizationUnitId}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit ID","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.created_job_child23}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Created Job_child23","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.Folder_or_Organization_Unit_Fully_Qualified_Name}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit Fully Qualified Name","type":"step","ref":""},{"name":"{{step[c590d8b7-3e72-400a-9825-39327f1024a2].created_jobs.Created_Job.OrganizationUnitFullyQualifiedName}}","label":"step➛Post Processing Step➛created_jobs➛Created Job➛Folder or Organization Unit Fully Qualified Name","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Update Flow Action: Request Time off from service catalog</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Update Flow Action: Request Time off from service catalog">2e45419f77713010d09b72e9be5a99d6</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c95859f77713010d09b72e9be5a998f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:46:20</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9c95859f77713010d09b72e9be5a998f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9c95859f77713010d09b72e9be5a998f"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=9c95859f77713010d09b72e9be5a998f^sys_idNOT IN1c95859f77713010d09b72e9be5a99ca"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Flow Action: Request Time off from service catalog">9c95859f77713010d09b72e9be5a998f</action>
+        <cid>33b251c1-bb76-4875-b56f-a790ccb0b664</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Update flow action</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>1c95859f77713010d09b72e9be5a99ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1c95859f77713010d09b72e9be5a99ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1c95859f77713010d09b72e9be5a99ca</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>9895859f77713010d09b72e9be5a99eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+   var inputScope = inputs.flow_scope_sys_id;
+  var newFlow = inputs.new_flow_sys_id;
+  var spoke_connection = inputs.spoke_connection;
+  var catalog_item = inputs.catalog_item;
+  if(catalog_item != null &amp;&amp; catalog_item != ""){
+  sn_flow.FlowTemplates.updateFlowActions(newFlow,'1', 'template_catalog_item', catalog_item);
+  }
+  if(spoke_connection != null &amp;&amp; spoke_connection != ""){
+  new global.FlowTemplatesHelper().activateConnection(spoke_connection);
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1c95859f77713010d09b72e9be5a99ca</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>d495859f77713010d09b72e9be5a99eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1c95859f77713010d09b72e9be5a99ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>1c95859f77713010d09b72e9be5a99ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>9095859f77713010d09b72e9be5a99eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_item</field>
+        <id>1c95859f77713010d09b72e9be5a99ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>1495859f77713010d09b72e9be5a99ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</table>
+        <value>{{action.catalog_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>flow_scope_sys_id</field>
+        <id>1c95859f77713010d09b72e9be5a99ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>d495859f77713010d09b72e9be5a99ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</table>
+        <value>{{action.flow_scope_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_flow_sys_id</field>
+        <id>1c95859f77713010d09b72e9be5a99ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>9895859f77713010d09b72e9be5a99ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</table>
+        <value>{{action.new_flow_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>1c95859f77713010d09b72e9be5a99ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5495859f77713010d09b72e9be5a99eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>spoke_connection</field>
+        <id>1c95859f77713010d09b72e9be5a99ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5c95859f77713010d09b72e9be5a99ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</table>
+        <value>{{action.spoke_connection}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1c95859f77713010d09b72e9be5a99ca^sys_idNOT IN5095859f77713010d09b72e9be5a99db,5495859f77713010d09b72e9be5a99e1,5c95859f77713010d09b72e9be5a99d4,9c95859f77713010d09b72e9be5a99cd"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>spoke_connection</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>spoke_connection</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">1c95859f77713010d09b72e9be5a99ca</model>
+        <model_id>1c95859f77713010d09b72e9be5a99ca</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5095859f77713010d09b72e9be5a99db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catalog_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>catalog_item</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">1c95859f77713010d09b72e9be5a99ca</model>
+        <model_id>1c95859f77713010d09b72e9be5a99ca</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5495859f77713010d09b72e9be5a99e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_flow_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>new_flow_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">1c95859f77713010d09b72e9be5a99ca</model>
+        <model_id>1c95859f77713010d09b72e9be5a99ca</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5c95859f77713010d09b72e9be5a99d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flow_scope_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>flow_scope_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update flow action">1c95859f77713010d09b72e9be5a99ca</model>
+        <model_id>1c95859f77713010d09b72e9be5a99ca</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1c95859f77713010d09b72e9be5a99ca</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>9c95859f77713010d09b72e9be5a99cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_action_input action="delete_multiple" query="model=9c95859f77713010d09b72e9be5a998f^sys_idNOT IN1495859f77713010d09b72e9be5a999b,5495859f77713010d09b72e9be5a99a2,9495859f77713010d09b72e9be5a99a9,d495859f77713010d09b72e9be5a9993"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8a8ffc58-1294-48d6-a76d-3715b5c77a2b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_flow_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>new_flow_sys_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">9c95859f77713010d09b72e9be5a998f</model>
+        <model_id>9c95859f77713010d09b72e9be5a998f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>1495859f77713010d09b72e9be5a999b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=24f87a2d-542b-4437-b230-f7cd5fb603ca</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catalog_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>catalog_item</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">9c95859f77713010d09b72e9be5a998f</model>
+        <model_id>9c95859f77713010d09b72e9be5a998f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5495859f77713010d09b72e9be5a99a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3de24a63-4099-4ea7-bc59-506574d7ddad</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>spoke_connection</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>spoke_connection</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">9c95859f77713010d09b72e9be5a998f</model>
+        <model_id>9c95859f77713010d09b72e9be5a998f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>9495859f77713010d09b72e9be5a99a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=139e953d-3cc3-432c-a024-cccaf42a042c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flow_scope_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>flow_scope_sys_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Flow Action: Request Time off from service catalog">9c95859f77713010d09b72e9be5a998f</model>
+        <model_id>9c95859f77713010d09b72e9be5a998f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>d495859f77713010d09b72e9be5a9993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f^sys_idNOT IN5c95859f77713010d09b72e9be5a9999,5c95859f77713010d09b72e9be5a99c7,9c95859f77713010d09b72e9be5a99a0,dc95859f77713010d09b72e9be5a99a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>flow_scope_sys_id</element>
+        <help/>
+        <hint/>
+        <label>flow_scope_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5c95859f77713010d09b72e9be5a9999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>spoke_connection</element>
+        <help/>
+        <hint/>
+        <label>spoke_connection</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>5c95859f77713010d09b72e9be5a99c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_flow_sys_id</element>
+        <help/>
+        <hint/>
+        <label>new_flow_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>9c95859f77713010d09b72e9be5a99a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>catalog_item</element>
+        <help/>
+        <hint/>
+        <label>catalog_item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9c95859f77713010d09b72e9be5a998f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 06:45:59</sys_created_on>
+        <sys_id>dc95859f77713010d09b72e9be5a99a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Templates for HR" source="sn_ft_for_hr">7c08bf22c331301054ffca568640dd39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Templates for HR">7c08bf22c331301054ffca568640dd39</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 06:45:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>2e45419f77713010d09b72e9be5a99d6</sys_id>
+        <latest_snapshot>9c95859f77713010d09b72e9be5a998f</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
